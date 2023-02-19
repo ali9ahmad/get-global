@@ -221,6 +221,7 @@ a{
     color: #002d40;
     border: 1px solid #011232;
     border-radius: 4px;
+    outline: #002d40;
 }
 
 .name::placeholder {
@@ -233,14 +234,17 @@ a{
     padding-left: 16px;
     font-size: 16px;
     line-height: 28px;
-    color: #c1ccd7;
+    color: #002d40;
     border: 1px solid #011232;
     border-radius: 4px;
 }
 
+.surname::placeholder {
+    color: #c1ccd7;
+}
+
 .foremail {
     margin-bottom: 20px;
-    color: #c1ccd7;
 }
 
 .secondinfo {
@@ -252,9 +256,13 @@ a{
     line-height: 28px;
     display: flex;
     align-items: center;
-    color: #c1ccd7;
+    color: #002d40;
     border: 1px solid #011232;
     border-radius: 4px;
+}
+
+.secondinfo::placeholder {
+    color: #c1ccd7;
 }
 
 .forphone {
@@ -268,8 +276,14 @@ a{
 .comment {
     width: 440px;
     height: 100px;
+    color: #002d40;
     border: 1px solid #011232;
     border-radius: 4px;
+}
+
+
+.comment::placeholder {
+    color: #c1ccd7;
 }
 
 .sendbutton {
@@ -296,7 +310,6 @@ a{
     font-weight: 600;
     font-size: 16px;
     line-height: 28px;
-    color: #c1ccd7;
 }
 /* FROMS STYLES END */
 /* /MAIN STYLES END */
